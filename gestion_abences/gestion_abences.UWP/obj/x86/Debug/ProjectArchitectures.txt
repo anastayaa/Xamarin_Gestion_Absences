@@ -1,0 +1,1 @@
+E:\C#_projects\gestion_abences\gestion_abences\gestion_abences.UWP\gestion_abences.UWP.csproj;x86

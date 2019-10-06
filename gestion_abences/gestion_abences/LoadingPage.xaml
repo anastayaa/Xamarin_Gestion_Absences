@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gestion_abences.LoadingPage"
+             BackgroundColor="Red">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="My Class"
+                   XAlign="Center"
+                   TextColor="White"
+                   FontAttributes="Italic"
+                   FontSize="72"
+                   Margin="20 0 20 0"/>
+            <Image Source="teacher.jpg"></Image>
+            <Label Text="Loading ..."
+                   HorizontalTextAlignment="Center"
+                   Margin="20 0 20 0"
+                   x:Name="loading_label"/>
+            <Label Text="Copyright ENSAS"
+                   HorizontalTextAlignment="Center"
+                   Margin="80 0 20 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
